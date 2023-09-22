@@ -21,4 +21,5 @@ from .views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', test, name='test'),
+    path('extract_qr_code/', extract_qr_code, name='extract_qr_code'),
 ]
